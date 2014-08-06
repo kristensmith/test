@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'github2/test'
+
+  get 'github2/test1'
+
   resources :welcomes
 
   get 'welcome/index'
